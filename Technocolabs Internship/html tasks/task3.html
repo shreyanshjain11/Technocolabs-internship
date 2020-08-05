@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<hr>
+	<form action="story.html" method="GET">
+		
+		<label for="animal-1"> Animal:<br>
+		<input id="animal-1" type="" ="text" name="animal-1" required="input"><br></label>
+		<label for="animal-2">Another Animal:<br>
+		<input id="animal-2" type="text" name="animal-2" required="input"><br>	
+		</label>
+		<label for="animal-3">One More Animal:
+			<input type="text" id="animal-3" name="animal-3" required="input"><br>
+		</label>
+		<label for="adj-1">Adjective (past tense):
+			<input type="text" name="adj-1" id="adj-1" required="required"><br>
+		</label>
+		<label for="verb-1">Verb (ends in -ing):
+			<input type="text" name="verb-1" id="verb-1" required="required"><br>
+		</label>
+		<label for="num-1">Number:
+			<input type="Number" name="num-1" id="num-1" required="required"><br>
+		</label>
+		<span>Yes or No:</span>
+		<input id="Yes" type="radio" name="answer" value="Yes" required="required">
+			<label for="Yes">Yes</label>
+		<input id="No" type="radio" name="answer" value="No" required="required">
+			<label for="No">No</label><br>
+		<label for="speed">Realtive Speed (ends in-er):
+			<select id="speed" name="speed" required="required">
+				<option value="fast">Fast</option>
+				<option value="faster">Faster</option>
+				<option value="fastest">Fastest</option>
+			</select><br>
+		</label>
+		<label for="quote">Motivational Quote:
+			<input type="text" id="quote" name="quote" required="required" list="quote-choices">
+			<datalist id="quote-choices">
+				<option value="winner gets ice cream!"></option>
+			</datalist><br>
+			<label for="message">Meaningful Message:</label>
+			<textarea id="message" name="message" required="required"></textarea><br>
+			
+		</label>
+		<input type="submit" value="Form My Story!">
+		
+	</form>
+
+</body>
+</html>
