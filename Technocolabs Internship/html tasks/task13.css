@@ -1,0 +1,40 @@
+header{
+	background-color: #ff8000;
+}
+#color-guide h2{
+	color:#ff8000;
+}
+footer.button{
+	color: #ff8000;
+}
+h1{
+	color: rgba(0,0,0,0.7);
+}
+#banner:before{
+	background-color: rgba(255,128,0,0.75);
+
+}
+footer:before{
+    color: rgba(0,0,0,0.7);
+}
+.color.swatches h4{
+	color: #9b9b9b;
+}
+.reds.base-color{
+	color:hsl(350, 100%, 50%);
+}
+.greens.base-color{
+	color:hsl(130, 100%, 50%);
+}
+.blues.base-color{
+	color:hsl(220, 100%, 50%);
+}
+.reds .saturation .color-1 {
+    color:hsl(350, 100%, 50%);
+}
+.greens .lightness .color-1 {
+    color:hsl(130, 100%, 50%);
+}
+.blues .lightness .color-1 {
+    color:hsl(220, 100%, 50%);
+}
